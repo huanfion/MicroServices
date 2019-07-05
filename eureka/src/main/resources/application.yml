@@ -1,0 +1,16 @@
+
+server:
+  port: 8801
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+#    标明是eureka 服务端，如果设置为true，则说明是客户端
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  application:
+    name: eureka
