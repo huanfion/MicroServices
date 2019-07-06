@@ -15,13 +15,4 @@
       </profile>
     </annotationProcessing>
   </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="eureka" options="-parameters" />
-      <module name="feign" options="-parameters" />
-      <module name="ribbon" options="-parameters" />
-      <module name="service-hi" options="-parameters" />
-      <module name="spring-boot" options="-parameters" />
-    </option>
-  </component>
 </project>
