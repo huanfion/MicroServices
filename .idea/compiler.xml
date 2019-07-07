@@ -12,6 +12,7 @@
         <module name="ribbon" />
         <module name="service-hi" />
         <module name="spring-boot" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
   </component>
